@@ -16,7 +16,7 @@ Create an instance of ```LearningContextClient\Client``` and provide it with you
 ```
 $storage = new \LearningContextClient\Storage\SessionArrayStorage();
 $config = new \LearningContextClient\Config($APP_ID, $APP_SECRET, $CALLBACK_URL, $storage);
-$lc = new LearningContextClient\Client($config);
+$lc = new \LearningContextClient\Client($config);
 ```
 
 ### Obtain token
